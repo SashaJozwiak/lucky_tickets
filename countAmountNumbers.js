@@ -7,6 +7,8 @@ function luckyNumbers(num) {
   arr.forEach((item) => {
     obj[item] ? obj[item]++ : (obj[item] = 1);
   });
+  
+  return obj;
 }
 
 console.log(luckyNumbers(num));
